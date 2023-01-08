@@ -1,0 +1,5 @@
+!pip install torchmetrics
+!python ./Train_SegNet_Pavements.py /content/drive/Shareddrives/pix2pixHD/model_crack_detection/data_set/train/image /content/drive/Shareddrives/pix2pixHD/model_crack_detection/data_set/train/label ./log_dir 
+!python ./Test_SegNet_Pavements.py /content/drive/Shareddrives/pix2pixHD/model_crack_detection/data_set/train/image /content/drive/Shareddrives/pix2pixHD/model_crack_detection/data_set/train/label /content/drive/Shareddrives/pix2pixHD/model_crack_detection/SegNet_PyTorch/Pavements/weights/checkpoint_pavements_20221130_034153.pth.tar /content/drive/Shareddrives/pix2pixHD/model_crack_detection/SegNet_PyTorch/Pavements/image_save/
+python ./Test_SegNet_Pavements.py /media/user1/Backup1/Hieu/model_crack_detection/test_data/dataset_test/GAP384/image/ /media/user1/Backup1/Hieu/model_crack_detection/Segnet_pytorch/weights/checkpoint_pavements_20221202_211137.pth.tar /media/user1/Backup1/Hieu/model_crack_detection/test_data/test_data/segnet/GAP384/
+ python Train_SegNet_Pavements.py /media/user1/Backup1/Hieu/model_crack_detection/data_set/train/image /media/user1/Backup1/Hieu/model_crack_detection/data_set/train/label ./log_dir
